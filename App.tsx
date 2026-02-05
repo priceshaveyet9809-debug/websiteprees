@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useRef, Suspense } from 'react';
 import { Menu, X, Youtube, Twitter, Facebook, ArrowRight, Camera, Home, Mail, MessageCircle, Sparkles, Zap, ShieldCheck, Clock, Layers, MapPin, Sparkle, Star, Phone, Instagram } from 'lucide-react';
+import { SpeedInsights } from '@vercel/speed-insights/react';
 import { BrandLogo } from './components/BrandLogo';
 import PackageCard from './components/PackageCard';
 import { ServiceItem } from './types';
@@ -144,6 +145,7 @@ export default function App() {
 
   return (
     <div className="w-full">
+      <SpeedInsights />
       <Suspense fallback={null}>
         <AIChat />
       </Suspense>
