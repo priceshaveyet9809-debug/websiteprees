@@ -6,18 +6,20 @@ import { VideoItem, PackageItem } from './types';
  */
 
 export const LONG_FORM_VIDEOS: VideoItem[] = [
-  { id: '1', title: 'Bel Air Estate Tour', thumbnail: 'https://images.unsplash.com/photo-1613490493576-7fde63acd811?w=800&q=80', youtubeId: 'ysz5S6PUM-U', type: 'long' },
-  { id: '2', title: 'Manhattan Penthouse Showcase', thumbnail: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80', youtubeId: 'M7J4Wj2V1Y0', type: 'long' },
-  { id: '3', title: 'Malibu Beachfront Property', thumbnail: 'https://images.unsplash.com/photo-1512915922686-57c11f9ad6b3?w=800&q=80', youtubeId: 'Xg9f3X6Yy9M', type: 'long' },
-  { id: '4', title: 'Modern Swiss Villa', thumbnail: 'https://images.unsplash.com/photo-1600585154340-be6191ecdb50?w=800&q=80', youtubeId: 'S1_S3aM3tQE', type: 'long' },
+  { id: '1', title: 'This is the symbol of luxury', thumbnail: 'https://img.youtube.com/vi/cu17V4nZK-c/hqdefault.jpg', youtubeId: 'cu17V4nZK-c', type: 'long' },
+  { id: '2', title: 'Manhattan Penthouse Showcase', thumbnail: '', youtubeId: 'M7J4Wj2V1Y0', type: 'long' },
+  { id: '3', title: 'Malibu Beachfront Property', thumbnail: '', youtubeId: 'Xg9f3X6Yy9M', type: 'long' },
+  { id: '4', title: 'Modern Swiss Villa', thumbnail: '', youtubeId: 'S1_S3aM3tQE', type: 'long' },
+  { id: '5', title: '202 4 Stuart Crescent, Drummoyne', thumbnail: 'https://img.youtube.com/vi/pqL7EMhnjKg/hqdefault.jpg', youtubeId: 'pqL7EMhnjKg', type: 'long' },
 ];
 
 export const SHORT_FORM_VIDEOS: VideoItem[] = [
-  { id: 's1', title: 'Luxury Kitchen Reveal', thumbnail: 'https://images.unsplash.com/photo-1556911220-e15b29be8c8f?w=400&h=700&fit=crop', youtubeId: 'ysz5S6PUM-U', type: 'short' },
-  { id: 's2', title: 'Infinity Pool Sunset', thumbnail: 'https://images.unsplash.com/photo-1572331165267-854da2b00ca1?w=400&h=700&fit=crop', youtubeId: 'M7J4Wj2V1Y0', type: 'short' },
-  { id: 's3', title: 'Master Bathroom Spa', thumbnail: 'https://images.unsplash.com/photo-1616594039964-40891a909d99?w=400&h=700&fit=crop', youtubeId: 'Xg9f3X6Yy9M', type: 'short' },
-  { id: 's4', title: 'Grand Entryway', thumbnail: 'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=400&h=700&fit=crop', youtubeId: 'S1_S3aM3tQE', type: 'short' },
+  { id: 's1', title: 'Luxury Kitchen Reveal', thumbnail: 'https://img.youtube.com/vi/foeDvpNrVtI/hqdefault.jpg?w=400&h=700&fit=crop', youtubeId: 'foeDvpNrVtI', type: 'short' },
+  { id: 's2', title: 'Infinity Pool Sunset', thumbnail: 'https://img.youtube.com/vi/foeDvpNrVtI/hqdefault.jpg?w=400&h=700&fit=crop', youtubeId: 'foeDvpNrVtI', type: 'short' },
+  { id: 's3', title: 'Master Bathroom Spa', thumbnail: 'https://img.youtube.com/vi/foeDvpNrVtI/hqdefault.jpg?w=400&h=700&fit=crop', youtubeId: 'foeDvpNrVtI', type: 'short' },
+  { id: 's4', title: 'Grand Entryway', thumbnail: 'https://img.youtube.com/vi/foeDvpNrVtI/hqdefault.jpg?w=400&h=700&fit=crop', youtubeId: 'foeDvpNrVtI', type: 'short' },
 ];
+
 
 export const PACKAGES: PackageItem[] = [
   {
