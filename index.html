@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, user-scalable=no" />
     <title>Prees | Professional Real Estate Video Editing</title>
     
-    <!-- PERFORMANCE OPTIMIZATION: Preconnect to external domains -->
+<!-- PERFORMANCE OPTIMIZATION: Preconnect to external domains -->
     <link rel="preconnect" href="https://images.unsplash.com" />
     <link rel="preconnect" href="https://cdn.tailwindcss.com" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -36,6 +36,7 @@
               'marquee': 'marquee 30s linear infinite',
               'marquee-reverse': 'marqueeReverse 30s linear infinite',
               'float': 'float 6s ease-in-out infinite',
+              'reveal-up': 'revealUp 1s cubic-bezier(0.2, 0.8, 0.2, 1) forwards',
             },
             keyframes: {
               marquee: {
@@ -49,6 +50,10 @@
               float: {
                 '0%, 100%': { transform: 'translateY(0)' },
                 '50%': { transform: 'translateY(-20px)' },
+              },
+              revealUp: {
+                '0%': { opacity: '0', transform: 'translateY(40px)' },
+                '100%': { opacity: '1', transform: 'translateY(0)' },
               }
             }
           }
